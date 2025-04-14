@@ -16,7 +16,7 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 	gameScene->Initialize();
 	while (true) {
 	//Engine 更新
-	if (KamataEngine::Update()) {
+	if (KamataEngine::Update( )) {
 		break;
 	    }
 	//ケ-ムシ-ン更新
